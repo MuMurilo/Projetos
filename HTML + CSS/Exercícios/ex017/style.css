@@ -2,4 +2,31 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
+/* Medidas Absolutas */
+
+/* mm, cm, in, px, pt, pc */
+
+
+/* Medidas Relativas */
+
+/* em, ex, rem, vw, vh, % */
+font-size: 1.2em;
+
+/* Peso da fonte */
+font-weight: bolder;
+/* lighter, normal, bold, bolder, 100 até 900 de 100 em 100 */
+font-style: italic;
+text-decoration: underline;
 }
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 4em;
+    font-style: oblique;
+
+    /* shorthand font */
+    /* Ordem: font-style, font-weight, font-size, font-family */
+    }
+    h2{
+        font: bolder 3em 'Courier New'
+    }
